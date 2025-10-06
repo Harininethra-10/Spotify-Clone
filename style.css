@@ -328,14 +328,15 @@ body {
   }
 }
 .preview {
-  position: fixed;
+ position: fixed;
   bottom: 0;
-  left: 0;
+  left: 245px; /* same as your sidebar width */
   right: 0;
   background: linear-gradient(to right, #ae2896, #509bf5);
   padding: 15px 40px;
   display: flex;
   justify-content: space-between;
+  z-index: 10;
 }
 
 .preview h6 {
@@ -362,5 +363,6 @@ body {
   border-radius: 40px;
   cursor: pointer;
 }
+
 
 
